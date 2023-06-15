@@ -7,7 +7,8 @@
 def print_Hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    print('wassup my guy')
+    if 'bro' in name:
+        print('wassup my guy')
 
 if __name__ == '__main__':
     print_Hi('PyCharm')
